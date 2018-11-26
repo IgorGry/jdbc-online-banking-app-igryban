@@ -2,7 +2,7 @@
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
 
     <persistence-unit name="BasicEntitiesPostgres">
-        <class>com.bobocode.model.User</class>
+        <class>com.bobocode.model.Person</class>
         <class>com.bobocode.model.Card</class>
         <class>com.bobocode.model.Payment</class>
 
@@ -20,7 +20,7 @@
     </persistence-unit>
 
     <persistence-unit name="BasicEntitiesH2">
-        <class>com.bobocode.model.User</class>
+        <class>com.bobocode.model.Person</class>
         <class>com.bobocode.model.Card</class>
         <class>com.bobocode.model.Payment</class>
 
